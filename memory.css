@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Comic Sans MS');
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: url("./images/background.jpeg");
+    background-size: cover;
+}
+
+h1, h2{
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#board{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 30px solid white;
+}
+
+#board div {
+    width: 120px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-image: url("./images/baksidan.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
